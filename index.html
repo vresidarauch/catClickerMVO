@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat Clicker</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cat selector template -->
+    <select name="cats" id="cat-list"></select>
+
+    <!-- Cat view template -->
+
+    <div class="cat">
+        <h2 class="cat-name"></h2>
+        <img src="" alt="cute cat" class="cat-img">
+        <div class="cat-count">
+        </div>
+    </div>
+
+    <!-- Admin view template -->
+    <button class="admin-button">Admin</button>
+    <div class="admin hidden">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="imgUrl">ImgURL:</label>
+        <input type="text" id="imgUrl">
+        <label for="clicks">#Clicks:</label>
+        <input type="number" id="clicks">
+        <div class="buttons">
+            <button class="save button">Save</button>
+            <button class="cancel button">Cancel</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

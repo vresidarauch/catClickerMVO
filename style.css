@@ -1,0 +1,50 @@
+.cat {
+  text-align: center;
+}
+.cat-img {
+  width: 100%;
+}
+.cat-count {
+  text-align: center;
+}
+
+/**********************/
+/* Tablet Media Query */
+/**********************/
+
+@media (min-width: 48em) {
+  .cat-img {
+    width: 50%;
+  }
+}
+
+.admin-button {
+  position: fixed;
+  top: 100px;
+  left: 16px;
+  font-size: 2em;
+}
+
+.admin {
+  position: fixed;
+  top: 160px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin > input {
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  flex-grow: 1;
+}
+
+.hidden {
+  display: none;
+}
